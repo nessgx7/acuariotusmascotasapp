@@ -1,0 +1,17 @@
+name: acuario_tus_mascotas
+description: MVP de stock por pecera para acuario.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.3
+
+flutter:
+  uses-material-design: true
